@@ -14,7 +14,7 @@
 .logo {
     font-size: 1.25rem;
     text-decoration: none;
-    color: var(--color-purple-med);
+    color: var(--color-sky-dark);
 }
 
 .navButton {
@@ -27,7 +27,7 @@
 
 .navButton, .modeChange {
     background-color: transparent;
-    color: var(--color-purple-med);
+    color: var(--color-sky-dark);
     border: none;
     font-size: 1.5rem;
     cursor: pointer;

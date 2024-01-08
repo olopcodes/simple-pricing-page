@@ -7,9 +7,16 @@
 .pricingContent {
     display: grid;
     justify-content: center;
+    grid-auto-rows: 400px;
+    gap: 2rem;
 }
 
 .pricingContent > * {
     border: 1px solid;
     text-align: center;
+}
+
+.price {
+    padding: 3rem 1.5rem;
+    border-radius: 5px;
 }
