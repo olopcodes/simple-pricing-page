@@ -1,0 +1,15 @@
+.main__container {
+    padding: 4rem 0;
+    background-color: var(--color-sky);
+    /* align-items÷\: center; */
+}
+
+.pricingContent {
+    display: grid;
+    justify-content: center;
+}
+
+.pricingContent > * {
+    border: 1px solid;
+    text-align: center;
+}
