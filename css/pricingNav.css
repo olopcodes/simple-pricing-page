@@ -1,0 +1,84 @@
+/* mobile nav */
+.mobileNav__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-color: var(--color-purple);
+    /* display: none; */
+}
+
+.mobileNav__container {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+}
+
+.mobileNav__container a {
+    display: inline-block;
+    padding: 1rem;
+    color: var(--color-sky);
+    text-transform: capitalize;
+}
+
+.mobileNav__container button {
+    align-self: flex-end;
+    font-size: 2rem;
+    background-color: transparent;
+    color: var(--color-sky-dark);
+    border-radius: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+/* desktop */
+.desktopMenu {
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    .navButton {
+       display: none;
+    }
+
+    .desktopMenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .modeChange {
+        margin-left: auto;
+    }
+
+
+
+    .pricingList {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-transform: capitalize;
+        width: 350px;
+    }
+
+    .pricingList a {
+        color: var(--color-sky);
+    }
+
+    .pricingList a:hover {
+        text-decoration: underline;
+    }
+
+    .pricingSearch {
+        padding: 10px;
+        border-radius: 100px;
+        width: 300px;
+    }
+}
